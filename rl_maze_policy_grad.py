@@ -45,7 +45,7 @@ plt.plot([1, 2    ], [ 2 + 7, 2 + 7], color='red', linewidth=lwd)
 plt.plot([2, 2    ], [ 2 + 7, 1 + 7], color='red', linewidth=lwd)
 plt.plot([2, 3 + 7], [ 1 + 7, 1 + 7], color='red', linewidth=lwd)
 plt.plot([1, 3    ], [-1 + 7,-1 + 7], color='red', linewidth=lwd)
-plt.plot([4, 10   ], [-1 + 7,-1 + 7], color='red', linewidth=lwd)
+plt.plot([4, 9    ], [-1 + 7,-1 + 7], color='red', linewidth=lwd)
 plt.plot([1, 9    ], [ 0 + 7, 0 + 7], color='red', linewidth=lwd)
 plt.plot([2, 2    ], [ 0,    -2 + 7], color='red', linewidth=lwd)
 plt.plot([3, 3    ], [ 1,    -1 + 7], color='red', linewidth=lwd)
@@ -56,6 +56,7 @@ plt.plot([7, 7    ], [ 1,    -1 + 7], color='red', linewidth=lwd)
 plt.plot([8, 8    ], [ 0,    -2 + 7], color='red', linewidth=lwd)
 plt.plot([9, 9    ], [ 1,    -1 + 7], color='red', linewidth=lwd)
 plt.plot([3, 4    ], [ 5,     5    ], color='red', linewidth=lwd)
+plt.plot([9, 10   ], [ 1,     1    ], color='red', linewidth=lwd)
 
 
 
@@ -137,7 +138,7 @@ theta_0_row6 = np.array([
                     [ N, 1, N, 1],# S_36
                     [ N, 1, N, 1],# S_37
                     [ N, 1, N, 1],# S_38
-                    [ 1, N, N, 1],# S_39
+                    [ 1, N, 1, 1],# S_39
                    ])
 
 theta_0_row5 = np.array([
@@ -150,7 +151,7 @@ theta_0_row5 = np.array([
                     [ N, N, 1, 1],# S_46
                     [ N, 1, 1, N],# S_47
                     [ N, N, 1, 1],# S_48
-                    [ N, N, 1, N],# S_49
+                    [ 1, N, 1, N],# S_49
                    ])
 
 theta_0_row4 = np.array([
@@ -202,7 +203,7 @@ theta_0_row1 = np.array([
                     [ 1, N, 1, N],# S_86
                     [ 1, N, 1, N],# S_87
                     [ 1, N, 1, N],# S_88
-                    [ 1, N, 1, N],# S_89
+                    [ 1, N, N, N],# S_89
                    ])
 
 theta_0_row0 = np.array([
